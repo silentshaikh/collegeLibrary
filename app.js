@@ -38,7 +38,7 @@ class Display{
         myLibrary.reset();
     }
     myValidate(book){
-        if(book.myName.length < 3 || book.myAuthor.length < 3){
+        if(book.myName.length < 3 || book.myAuthor.length < 3 || book.mySubject == null){
             return false;
         }else{
             return true;
