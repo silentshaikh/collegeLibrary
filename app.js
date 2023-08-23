@@ -47,7 +47,7 @@ class Display{
     myShow(){
         let alertMessage = document.getElementById("alertmessage");
         alertMessage.innerHTML = `<div class="alert alert-danger" role="alert">
-        <p><strong>Sorry,</strong> You can not add this book</p>
+        <p><strong>Please,</strong> Fill all the Fields</p>
       </div>`;
       alertMessage.style.fontFamily = `'Poppins', sans-serif`;
       setTimeout(() => {
